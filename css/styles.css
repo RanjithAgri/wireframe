@@ -1,0 +1,212 @@
+*{
+    font-family: sans-serif;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+body {
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.navbar {
+	overflow: hidden;
+	position: fixed;
+    top: 0; 
+	width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-shadow: 1px 2px 5px red;
+}
+#navLogo{
+    margin-right:auto;
+    margin-left: 60px;
+}
+.navDiv>a{
+    padding: 0px 20px;
+    font-weight: bold;
+    color: black;
+}
+.navDiv>a:hover{
+    color: #ff9999 ;
+}
+.btnAtag{
+    margin-left: auto;
+    margin-right: 110px;
+}
+.btnSignIn{
+    background: black;
+    color: white;
+    border: none;
+    padding: 12px 39px; 
+    border-style: solid;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.Up{
+    border: #6600cc;
+    padding: 15px 30px;
+}
+.btnSignIn:hover{
+    transform: scale(.95);
+    cursor: pointer;
+}
+/* Banner section starts here */
+.bannerSec{
+    background: url('../images/banner.png');
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+
+}
+.bannerH1{
+    font-size: 2.8em;
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 91px;
+}
+.bannerPara{
+    color: #ff6666;
+    line-height: 1.5em;
+    text-align:left;
+    margin-left: 91px;
+}
+.para{
+    line-height: 1.5em;
+    padding: 30px 0;
+}
+.btnAffi{
+    background: black;
+    color: white;
+    padding: 20px 40px; 
+    border-radius: 60px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 91px;
+    margin-bottom: 80px;
+    width: fit-content;
+
+}
+.btnAffi:hover{
+    transform: scale(.95);
+    cursor: pointer;
+}
+.secondHead{
+    font-size: 1.8em;
+    margin-top: 60px;
+}
+.secondPara{
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+.secondSec{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+.secondDivBtn{
+    padding: 10px 17px;
+    border: none;
+    background-color: #330066;
+    border-radius: 50%;
+    color:white;
+    font-size:1.5em; 
+}
+.secondDivPara{
+    line-height: 1.5em;
+
+}
+.third{
+    background-color: #ffcccc;
+    color:black;
+}
+.fourthDivBtn{
+    margin: 35px 50%;
+    border: none;
+    background-color: #330066;
+    color:white;
+    padding: 3px 10px;
+    border-radius: 50%;
+    font-size:1.5em;
+    margin-left: 20px;
+}
+.fourthSec{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 60px;
+}
+.fourthDivPara{
+    margin-top: -62px;
+    padding-left: 50px;
+}
+.fifthSec{
+    background: #ffcccc;
+    padding: 60px 0px;
+}
+.fifthHead{
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+.fifthDivFlex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px ;
+}
+.fifthH1{
+    font-size: 1.8em;
+    margin: 50px 0;
+
+}
+/* Sixth section starts */
+.sixthSec{
+    padding: 60px 0px;
+}
+.faqHead{
+    padding-bottom: 20px;
+    padding-top: -10px
+}
+.sixthSectionDiv{
+    display: flex;
+    align-items: center;
+}
+.paraHead{
+    font-weight: bold;
+    text-align: left;
+    padding: 0 50px;
+}
+.paraLeft{
+    line-height: 1.4em ;
+    text-align: left;
+    padding: 0 50px;
+}
+/* Sixth section ends */
+.seventhSection{
+    background-color: #6600cc;
+    padding: 50px 0;
+}
+/*footer*/
+.foot{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+.logo img{
+    cursor: pointer;
+}
+.social-icon img{
+    width: 20px;
+    cursor: pointer;
+    height: 20px;
+}
+.rightLogo{
+    opacity:0.7;
+    cursor: pointer;
+}
+
+.hr{
+    border-color: #ff9999;
+    opacity: 0.2;
+}

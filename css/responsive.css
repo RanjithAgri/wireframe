@@ -1,0 +1,111 @@
+@media screen and (max-width:1024px){
+.navDiv{
+    display: none;
+    
+}
+#navLogo{
+    margin-left: 120px;    
+} 
+
+.btnSignIn{
+    display: none;
+}
+/* banner section starts */
+.bannerSec{
+    margin-top: 90px;
+    height:fit-content;
+
+}
+.bannerH1{
+    font-size: 1.4em;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.bannerPara{
+    margin-left: 1px;
+    padding: 0 30px;
+    text-align: center;
+}
+br{
+    display: none;
+}
+.btnAffi{
+    padding: 15px 20px;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+.secondHead{
+    font-size: 1.2em;
+    padding: 0 20px;
+}
+.secondPara{
+    padding: 0 20px;
+} 
+.secondDivPara{
+    margin: auto;
+    padding: 0px 10px;
+    margin-bottom: 20px;
+} 
+.secondDivBtn{
+    margin-top: 20px;
+}
+.secondSec{
+    flex-direction: column;
+}
+.fourthSec{
+    display: flex;
+    flex-direction: column;
+}
+.fourthDivPara{
+    padding: 0 80px;
+    margin-top: -58px
+    pa
+}
+.fourthDivBtn{
+    margin-left: -80px;
+}
+.fifthSec{
+    padding: 15px 0;
+
+}
+.fifthHead{
+    font-size: 1.4em;
+}
+.fifthDivFlex{
+    flex-direction: column  ;
+}
+.fifthH1{
+    font-size: 1.4em;
+    margin: 20px;
+
+}
+.sixthSectionDiv{
+    flex-direction: column;
+}
+.sixthSec{
+    padding: 0%;
+}
+.faqHead{
+    font-size: 1.3em;
+
+}
+.paraHead{
+    padding: 0 13px;
+}
+.paraLeft{
+    padding: 0 40px;
+
+}
+.para{
+    padding: 0 60px;
+}
+.foot{
+    padding: 30px;
+    flex-direction: column;
+}
+.social-icon img{
+    padding:0 20px;
+}
+}
